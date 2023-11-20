@@ -3,11 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	var i int
+	var countOfApple int
 
-	for i = 0; i < 10; i++ {
-		fmt.Println("Hello World!")
+	for i := 0; i < 5; i++ {
+		countOfApple = countOfApple + 2
 	}
+
+	fmt.Printf("Total apples are: %v\n", countOfApple)
 }
 
 // for initialization; condition check; increment/decrement {
